@@ -49,6 +49,15 @@ body {
     margin-right: 108px;
 }
 
+.header-logo-img__link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.header-logo__content {
+    display: inline-block;
+}
+
 .header-logo-img__link:hover {
     opacity: 0.8;
 }
@@ -100,11 +109,13 @@ body {
 }
 
 .header-menu__items__link:hover {
+    color: #ee4248;
     opacity: 0.8;
 }
 
 .header-menu__items__link:active {
     opacity: 0.6;
+    color: #ee4248;
 }
 /* /HEADER-MENU */
 
@@ -125,13 +136,16 @@ body {
 
 .header-icon__link:hover {
     opacity: 0.8;
+    color: #ee4248;
 }
 
 .header-icon__link:hover {
     opacity: 0.6;
+    color: #ee4248;
 }
 /* /HEADER-ICON */
 /* /HEADER */
+
 
 /* MAIN */
 /* CONTENT-INFORMATION */
@@ -331,14 +345,14 @@ body {
     margin-bottom: 24px;
 }
 
-.adres-logo-img__content {
-    display: flex;
-}
-
 .adres__left__section {
     margin: 0;
     padding: 0;
     width: 360px;
+}
+
+.adres-logo__content {
+    display: inline-block;
 }
 
 .adres-content {
